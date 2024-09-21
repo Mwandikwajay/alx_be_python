@@ -1,13 +1,13 @@
 # daily_reminder.py
 
 # Get task description from the user
-task = input("Enter the task description: ")
+task = input("Enter your task: ")
 
 # Get task priority
-priority = input("Enter the task priority (high, medium, low): ").lower()
+priority = input("Priority (high/medium/low): ").lower()
 
 # Get time sensitivity information
-time_bound = input("Is the task time-bound? (yes or no): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Customized reminder based on priority and time sensitivity
 def create_reminder(task, priority, time_bound):
